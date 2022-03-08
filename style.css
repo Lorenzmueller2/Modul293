@@ -1,3 +1,49 @@
+body {
+    background-color: #e6ae65;
+}
+
+
+/*navbar*/
+.topnav {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(75, 96, 134);
+    color: rgb(0, 0, 0);
+}
+.topnav a {
+    background-color: rgb(75, 96, 134);
+    ;
+    text-decoration: none;
+    text-align:center;
+    display: block;
+    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
 h1 {
     text-align: center;
+}
+
+
+/*
+.film {
+    display: grid;
+    grid-template-columns: 300px 50%;
+    gap: 40px;
+    justify-content: center;
+    margin: auto;
+    width: 300;
+    height: 400;
+    list-style: none;
 }
